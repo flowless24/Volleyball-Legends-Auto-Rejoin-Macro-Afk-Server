@@ -1,3 +1,9 @@
+Requirement: AutoHotkey v2.0, Windows 10/11
+
+Link to AutoHotkey Download.
+
+https://www.autohotkey.com/
+
 🏠 Tab 1: Main
 
 Private Server Link
