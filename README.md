@@ -1,4 +1,5 @@
 🏠 Tab 1: Main
+
 Private Server Link
 Paste your Roblox VIP/Private Server URL here. The macro uses this specific link to launch the game if a crash is detected.
 Click Interval (s)
@@ -14,7 +15,9 @@ Controls
 Start Macro (F5): Begins the automation.
 Stop Macro (F7): Stops all automation.
 Save Settings: Manually saves your current configuration (though the script also auto-saves as you type).
+
 👾 Tab 2: Webhook
+
 Discord Webhook URL
 Paste the Webhook URL created in your Discord Server Settings (Integrations > Webhooks). This is where logs and images will be sent.
 Discord User ID (Optional)
@@ -22,7 +25,9 @@ Paste your numerical Discord ID here (e.g., 266398...).
 Effect: The bot will @mention (ping) you only when the macro starts, stops, or detects a crash. It will remain silent for regular status updates.
 Enable Screenshots & Notifications
 Master switch. Uncheck this to disable all Discord integrations and run the macro locally only.
+
 🚀 Tab 3: Bloxstrap
+
 Enable File Editing
 Check this only if you use the Bloxstrap bootstrapper. It automates editing the Bloxstrap settings file to prevent launch confirmation popups.
 File Path
@@ -31,7 +36,9 @@ Value when STOPPED
 The text the macro should write to the file when you Stop the macro (usually enables launch confirmation for normal play).
 Value when RUNNING
 The text the macro should write when you Start the macro (usually disables launch confirmation so the macro can auto-rejoin without human input).
+
 ⚙️ Tab 4: Advanced
+
 Enable Auto-Rejoin (Pixel Check)
 Checked: The macro monitors the screen for crashes (error messages) or closed windows. If detected, it triggers the Rejoin Sequence.
 Unchecked: The macro acts as a simple auto-clicker. It will not check for errors and will not try to rejoin.
