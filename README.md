@@ -6,11 +6,11 @@ Paste your Roblox VIP/Private Server URL here. The macro uses this specific link
 
 Click Interval (s)
 
-Sets how often (in seconds) the macro will move the mouse and click to prevent you from being kicked for idleness. (Recommended: 300 for 5 minutes).
+Sets how often (in seconds) the macro will move the mouse and click to prevent you from being kicked for idleness. (Recommended: 10 seconds).
 
 Screenshot Loop (s)
 
-Sets how often (in seconds) the macro sends a screenshot of your game to Discord while running.
+Sets how often (in seconds) the macro sends a screenshot of your game to Discord while running. (Recommended: 120 seconds).
 
 Scheduler
 
@@ -76,6 +76,8 @@ Recalculate Pixels Now
 
 Click this button if you change your monitor resolution or scaling settings. It recalculates the screen positions used for crash detection.
 
+Don't change the pixel location, it is already set up to check if you are in the AFK server and if you are still connected to the game.
+
 Toggle Debug Mode
 
 Enables/Disables a small tooltip in the top-left corner that shows exactly what the macro is doing in real-time (e.g., "Waiting for timer", "Searching for pixels").
@@ -87,5 +89,7 @@ Immediately takes a screenshot and sends it to your Discord Webhook to verify yo
 Force Close Other Apps (Manual)
 
 A manual button that instantly closes all open windows and kills browser processes (Chrome, Edge, Firefox, Discord) to free up system resources. Use with caution.
+
+
 
 This code is generated using AI. If you have any issues with the script, let me know. I will try my best to fix it!
