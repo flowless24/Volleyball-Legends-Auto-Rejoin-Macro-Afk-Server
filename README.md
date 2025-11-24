@@ -1,63 +1,47 @@
+🏠 Tab 1: Main
+Private Server Link
+Paste your Roblox VIP/Private Server URL here. The macro uses this specific link to launch the game if a crash is detected.
+Click Interval (s)
+Sets how often (in seconds) the macro will move the mouse and click to prevent you from being kicked for idleness. (Recommended: 300 for 5 minutes).
+Screenshot Loop (s)
+Sets how often (in seconds) the macro sends a screenshot of your game to Discord while running.
+Scheduler
+Enable Scheduler: Turns the auto-start timer on/off.
+Start Time: Set the specific Hour, Minute, and AM/PM for the macro to start automatically.
+Day: Choose "Every Day" or a specific day of the week.
+Force Close ALL Apps: If checked, the macro will close all other open windows (Chrome, Spotify, etc.) when the schedule triggers to free up RAM.
+Controls
+Start Macro (F5): Begins the automation.
+Stop Macro (F7): Stops all automation.
+Save Settings: Manually saves your current configuration (though the script also auto-saves as you type).
+👾 Tab 2: Webhook
+Discord Webhook URL
+Paste the Webhook URL created in your Discord Server Settings (Integrations > Webhooks). This is where logs and images will be sent.
+Discord User ID (Optional)
+Paste your numerical Discord ID here (e.g., 266398...).
+Effect: The bot will @mention (ping) you only when the macro starts, stops, or detects a crash. It will remain silent for regular status updates.
+Enable Screenshots & Notifications
+Master switch. Uncheck this to disable all Discord integrations and run the macro locally only.
+🚀 Tab 3: Bloxstrap
+Enable File Editing
+Check this only if you use the Bloxstrap bootstrapper. It automates editing the Bloxstrap settings file to prevent launch confirmation popups.
+File Path
+The location of your Bloxstrap Settings.json file.
+Value when STOPPED
+The text the macro should write to the file when you Stop the macro (usually enables launch confirmation for normal play).
+Value when RUNNING
+The text the macro should write when you Start the macro (usually disables launch confirmation so the macro can auto-rejoin without human input).
+⚙️ Tab 4: Advanced
+Enable Auto-Rejoin (Pixel Check)
+Checked: The macro monitors the screen for crashes (error messages) or closed windows. If detected, it triggers the Rejoin Sequence.
+Unchecked: The macro acts as a simple auto-clicker. It will not check for errors and will not try to rejoin.
+Recalculate Pixels Now
+Click this button if you change your monitor resolution or scaling settings. It recalculates the screen positions used for crash detection.
+Toggle Debug Mode
+Enables/Disables a small tooltip in the top-left corner that shows exactly what the macro is doing in real-time (e.g., "Waiting for timer", "Searching for pixels").
+Test Screenshot Webhook
+Immediately takes a screenshot and sends it to your Discord Webhook to verify your link is working.
+Force Close Other Apps (Manual)
+A manual button that instantly closes all open windows and kills browser processes (Chrome, Edge, Firefox, Discord) to free up system resources. Use with caution.
 
-📋 Requirements
-
-AutoHotkey v2.0+
-
-Windows 10/11
-
-(Optional) Bloxstrap for best performance.
-
-🚀 How to Use
-
-Connection: Paste your Private Server link.
-
-Discord: (Optional) Paste your Webhook URL and Bot Token to enable remote monitoring.
-
-Start: Press F5 or click "Start Macro."
-
-Stop: Press F7 or click "Stop Macro."
-
-Roblox Ultimate Macro v2
-
-Roblox Ultimate Macro is a highly advanced, AutoHotkey (v2) automation tool designed for long-term AFK grinding. It goes beyond simple auto-clicking by integrating smart error detection, auto-rejoining capabilities, discord remote monitoring, and precise task scheduling.
-
-🌟 Key Features
-1. Smart Auto-Rejoin System
-
-Uses Dual-Pixel Detection to monitor game health:
-
-Error Check: Detects disconnect screens immediately.
-
-Safety Check: Verifies the player is successfully loaded in-game.
-
-If a disconnect is detected, the script automatically kills the Roblox process, re-launches the private server link, and navigates back into the game loop.
-
-2. Discord Integration & Remote Control
-
-Live Logs: Sends Webhook notifications when the macro starts, stops, or encounters errors.
-
-Remote Screenshots: Sends a screenshot of your game to Discord on a custom loop (e.g., every 2 minutes) so you can check your progress from your phone.
-
-Bot Commands: Control your PC remotely! Send !start or !stop in your Discord channel to control the macro.
-
-3. Precision Scheduler
-
-Set a specific Day, Hour, and Minute for the macro to automatically wake up and start grinding.
-
-Includes an optional "Close All Apps" feature that automatically closes memory-hogging applications (like Chrome, Spotify, etc.) to free up resources for Roblox when the schedule triggers.
-
-4. Bloxstrap Support
-
-Automatically edits the Bloxstrap Settings.json file to disable "Confirm Launches" when the macro starts and re-enables it when stopped. This ensures the Auto-Rejoin feature never gets stuck on a popup.
-
-🛠️ Technical Settings
-
-Click Loop: Customizable interval for anti-AFK clicking.
-
-Screenshot Loop: Independent timer for Discord screenshots (adjustable via Up/Down arrows).
-
-Debug Mode: Displays on-screen tooltips to visualize exactly what part of the logic the script is executing.
-
-GUI: A clean, dark-themed interface with Tabs for easy configuration.
-
-Yes this is generated using Ai.
+This code is generated using AI. If you have any issues with the script, let me know. I will try my best to fix it!
